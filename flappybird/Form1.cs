@@ -74,7 +74,12 @@ namespace flappybird
         private void endGame()
         {
             gameTimer.Stop();
-            scoreText.Text = "Game Over !!! ";
+            scoreText.Text = "Game Over !! ";
+        }
+
+        private void flappyBird_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
